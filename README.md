@@ -1,13 +1,27 @@
-# EthernetWizard-Pager-Theme
-Wifi Pineapple Pager Ethernet Wizard!! v2 is here, rebuilt for Pager firmware 2.0.0 :)
+# EthernetWizard Pager Theme
 
-## v2 (firmware 2.0.0)
-Download and unzip **EthernetWizard_v2.zip**
-Place the **ethernet_wizard** folder into your themes folder on your pager (`/root/themes/`), then pick it under Settings → General → Theme!!
+A wizard-themed interface for the Hak5 WiFi Pineapple Pager, with custom pixel art, menus, and animations. Check your Pager firmware before choosing a download.
 
-Coming from v1? Switch to the built in wargames theme first, delete the old EthernetWizard folder, then drop in the new one.
+- **Firmware 2.0.0 — theme v2:** [Download EthernetWizard_v2.zip](https://github.com/EthernetWizard/EthernetWizard-Pager-Theme/releases/download/v2/EthernetWizard_v2.zip) · [v2 release notes](https://github.com/EthernetWizard/EthernetWizard-Pager-Theme/releases/tag/v2). The ZIP contains `ethernet_wizard/`.
+- **Firmware 1.0.0 — original theme v1:** [Download EthernetWizard_v1.zip](https://github.com/EthernetWizard/EthernetWizard-Pager-Theme/releases/download/v1/EthernetWizard_v1.zip) · [v1 release notes](https://github.com/EthernetWizard/EthernetWizard-Pager-Theme/releases/tag/v1). The ZIP contains `EthernetWizard/`.
 
-What's new in v2:
+The v2 release requires firmware 2.0.0. The v1 release specifies 1.0.0; compatibility with other 1.0.x versions is unconfirmed.
+
+## Install or upgrade
+
+1. Download and unzip the asset for your firmware.
+2. If moving from v1 to v2, switch to the built-in `wargames` theme first. Back up the old `EthernetWizard` folder before removing it from the Pager's themes directory.
+3. Copy the extracted folder—not the ZIP or a folder containing it—into `/root/themes/` on the Pager. See [Hak5's file transfer guide](https://docs.hak5.org/wifi-pineapple-pager/connecting-to-the-wifi-pineapple-pager/ssh-and-the-wifi-pineapple-pager). Check that `theme.json` is directly inside the copied folder: `/root/themes/ethernet_wizard/theme.json` for v2 or `/root/themes/EthernetWizard/theme.json` for v1.
+4. On the Pager, go to **Settings → General → Theme** and select the installed theme.
+
+## Screenshots
+
+![v2 dashboard preview](screenshots/v2/01_dashboard.png)
+
+[Browse all v2 screenshots](screenshots/v2/) · [Original v1 screenshots and walkthrough](#v1-original)
+
+## What's new in v2
+
 - New main menu rail with sharper icons, the name of the icon you're on shown beside it, and a glowing green rune marking your spot
 - New Pager Portal scenes: a PC with a portal pouring out of the screen, the wizard brewing potions for Payloads, and browsing on a crystal screen PC for Themes
 - All the original v1 art remastered, crisper and tuned for the Pager screen
@@ -20,31 +34,11 @@ What's new in v2:
 - EthernetWizard Lab QR code under Settings → Help (page 2)
 - All the new firmware 2.0.0 screens styled to match
 
-<img width="898" alt="Dashboard" src="screenshots/v2/01_dashboard.png" />
-<img width="898" alt="Pager Portal" src="screenshots/v2/02_pager_portal.png" />
-<img width="898" alt="Alerts" src="screenshots/v2/03_alerts.png" />
-<img width="898" alt="Payloads" src="screenshots/v2/04_payloads.png" />
-<img width="898" alt="Recon" src="screenshots/v2/05_recon.png" />
-<img width="898" alt="Recon List" src="screenshots/v2/06_recon_list.png" />
-<img width="898" alt="Recon Payloads" src="screenshots/v2/07_recon_payloads.png" />
-<img width="898" alt="Launch Payload" src="screenshots/v2/08_launch_payload.png" />
-<img width="898" alt="PineAP" src="screenshots/v2/09_pineap.png" />
-<img width="898" alt="Settings" src="screenshots/v2/10_settings.png" />
-<img width="898" alt="Power Menu" src="screenshots/v2/11_power_menu.png" />
-<img width="898" alt="Quick Settings" src="screenshots/v2/12_quick_settings.png" />
-<img width="898" alt="Keyboard" src="screenshots/v2/13_keyboard.png" />
-<img width="898" alt="Lock Screen" src="screenshots/v2/14_lock_screen.png" />
-<img width="898" alt="Wizard's Lab QR" src="screenshots/v2/15_lab_qr.png" />
+## v1 original
 
-v2 only works on firmware 2.0.0. If you're still on firmware 1.0.x, grab v1 below.
+Original artwork and walkthrough, kept for reference. The video is for v1.
 
-## v1 (firmware 1.0.x)
-Wifi Pineapple Pager Ethernet Wizard!! This is the first custom theme ive ever made, i hope you enjoy!
-Download and upzip the Ethernetwizard.zip
-Place the Ethernetwizard folder into your themes folder on your pager!! 
-
-If you need a guided walkthrough dont feel bad ive linked the absolute legend The Talking Sasquatch below helping you step by step ;)
-https://youtu.be/jQi02L46kvA?si=V45inet5OCksReA1&t=356
+[Watch the original v1 installation walkthrough (YouTube, 5:56)](https://youtu.be/jQi02L46kvA?t=356)
 <img width="898" height="643" alt="1Dashboard" src="https://github.com/user-attachments/assets/c2686cc9-c325-46e9-94af-b4d3da6896a4" />
 <img width="898" height="627" alt="2Alerts" src="https://github.com/user-attachments/assets/f611a996-2aac-486c-8fd5-f2f8dae946b7" />
 <img width="901" height="627" alt="3Payloads" src="https://github.com/user-attachments/assets/544568f6-c9e8-4ec2-a2c9-20cb9aec37ef" />
