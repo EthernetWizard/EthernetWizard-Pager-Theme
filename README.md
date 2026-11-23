@@ -2,19 +2,17 @@
 
 A wizard-themed interface for the Hak5 WiFi Pineapple Pager, with custom pixel art, menus, and animations. Check your Pager firmware before choosing a download.
 
-| Pager firmware | Theme | Release asset | Folder inside ZIP |
-| --- | --- | --- | --- |
-| **2.0.0** | v2 | [EthernetWizard_v2.zip](https://github.com/EthernetWizard/EthernetWizard-Pager-Theme/releases/download/v2/EthernetWizard_v2.zip) | `ethernet_wizard` |
-| **1.0.0** | v1 (original) | [EthernetWizard_v1.zip](https://github.com/EthernetWizard/EthernetWizard-Pager-Theme/releases/download/v1/EthernetWizard_v1.zip) | `EthernetWizard` |
+- **Firmware 2.0.0 — theme v2:** [Download EthernetWizard_v2.zip](https://github.com/EthernetWizard/EthernetWizard-Pager-Theme/releases/download/v2/EthernetWizard_v2.zip) · [v2 release notes](https://github.com/EthernetWizard/EthernetWizard-Pager-Theme/releases/tag/v2). The ZIP contains `ethernet_wizard/`.
+- **Firmware 1.0.0 — original theme v1:** [Download EthernetWizard_v1.zip](https://github.com/EthernetWizard/EthernetWizard-Pager-Theme/releases/download/v1/EthernetWizard_v1.zip) · [v1 release notes](https://github.com/EthernetWizard/EthernetWizard-Pager-Theme/releases/tag/v1). The ZIP contains `EthernetWizard/`.
 
-The v1 release notes name firmware 1.0.0; compatibility with other 1.0.x versions has not been confirmed here. See the [v2 release notes](https://github.com/EthernetWizard/EthernetWizard-Pager-Theme/releases/tag/v2) or the [v1 release notes](https://github.com/EthernetWizard/EthernetWizard-Pager-Theme/releases/tag/v1).
+The v2 release requires firmware 2.0.0. The v1 release specifies 1.0.0; compatibility with other 1.0.x versions is unconfirmed.
 
 ## Install or upgrade
 
 1. Download and unzip the asset for your firmware.
-2. If moving from v1 to v2, switch to the built-in `wargames` theme first. Back up any local customizations before removing the old theme folder.
-3. Copy the extracted theme folder into `/root/themes/` on the Pager. Keep the folder name and its contents intact.
-4. Select the installed theme under **Settings → General → Theme**.
+2. If moving from v1 to v2, switch to the built-in `wargames` theme first. Back up the old `EthernetWizard` folder before removing it from the Pager's themes directory.
+3. Copy the extracted folder—not the ZIP or a folder containing it—into `/root/themes/` on the Pager. See [Hak5's file transfer guide](https://docs.hak5.org/wifi-pineapple-pager/connecting-to-the-wifi-pineapple-pager/ssh-and-the-wifi-pineapple-pager). Check that `theme.json` is directly inside the copied folder: `/root/themes/ethernet_wizard/theme.json` for v2 or `/root/themes/EthernetWizard/theme.json` for v1.
+4. On the Pager, go to **Settings → General → Theme** and select the installed theme.
 
 ## Screenshots
 
@@ -40,7 +38,7 @@ The v1 release notes name firmware 1.0.0; compatibility with other 1.0.x version
 
 Original artwork and walkthrough, kept for reference. The video is for v1.
 
-https://youtu.be/jQi02L46kvA?si=V45inet5OCksReA1&t=356
+[Watch the original v1 installation walkthrough (YouTube, 5:56)](https://youtu.be/jQi02L46kvA?t=356)
 <img width="898" height="643" alt="1Dashboard" src="https://github.com/user-attachments/assets/c2686cc9-c325-46e9-94af-b4d3da6896a4" />
 <img width="898" height="627" alt="2Alerts" src="https://github.com/user-attachments/assets/f611a996-2aac-486c-8fd5-f2f8dae946b7" />
 <img width="901" height="627" alt="3Payloads" src="https://github.com/user-attachments/assets/544568f6-c9e8-4ec2-a2c9-20cb9aec37ef" />
