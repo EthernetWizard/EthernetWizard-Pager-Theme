@@ -16,9 +16,67 @@ The v2 release requires firmware 2.0.0. The v1 release specifies 1.0.0; compatib
 
 ## Screenshots
 
-![v2 dashboard preview](screenshots/v2/01_dashboard.png)
+[Original v1 screenshots and walkthrough](#v1-original)
 
-[Browse all v2 screenshots](screenshots/v2/) · [Original v1 screenshots and walkthrough](#v1-original)
+### Dashboard
+
+![v2 Dashboard](screenshots/v2/01_dashboard.png)
+
+### Pager Portal
+
+![v2 Pager Portal](screenshots/v2/02_pager_portal.png)
+
+### Alerts
+
+![v2 Alerts](screenshots/v2/03_alerts.png)
+
+### Payloads
+
+![v2 Payloads](screenshots/v2/04_payloads.png)
+
+### Recon
+
+![v2 Recon](screenshots/v2/05_recon.png)
+
+### Recon list
+
+![v2 Recon list](screenshots/v2/06_recon_list.png)
+
+### Recon payloads
+
+![v2 Recon payloads](screenshots/v2/07_recon_payloads.png)
+
+### Launch payload
+
+![v2 Launch payload screen](screenshots/v2/08_launch_payload.png)
+
+### PineAP
+
+![v2 PineAP](screenshots/v2/09_pineap.png)
+
+### Settings
+
+![v2 Settings](screenshots/v2/10_settings.png)
+
+### Power menu
+
+![v2 Power menu](screenshots/v2/11_power_menu.png)
+
+### Quick settings
+
+![v2 Quick settings](screenshots/v2/12_quick_settings.png)
+
+### Keyboard
+
+![v2 Keyboard](screenshots/v2/13_keyboard.png)
+
+### Lock screen
+
+![v2 Lock screen](screenshots/v2/14_lock_screen.png)
+
+### EthernetWizard Lab QR code
+
+![v2 EthernetWizard Lab QR code](screenshots/v2/15_lab_qr.png)
 
 ## What's new in v2
 
